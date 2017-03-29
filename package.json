@@ -4,7 +4,11 @@
   "description": "Starter pack for building applications with typescript react and redux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"webpack-dev-server --content-base ./dist --hot --inline --colors --port 8080 --open",
+    "start-code": "webpack-dev-server --content-base ./dist --hot --progress --colors --host 0.0.0.0 --devtool eval --port 8080",
+    "build": "webpack --config webpack.config.js ",
+    "dev": "npm run build && npm run start",
+    "code": "npm run build && npm run start-code"
   },
   "repository": {
     "type": "git",
@@ -22,10 +26,11 @@
   },
   "homepage": "https://github.com/orlando-paredes-hamsho/typescript-react-redux-scaffold#readme",
   "devDependencies": {
-    "awesome-typescript-loader": "^3.1.2",
     "source-map-loader": "^0.2.0",
+    "ts-loader": "^2.0.3",
     "typescript": "^2.2.2",
-    "webpack": "^2.3.2"
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
   },
   "dependencies": {
     "@types/react": "^15.0.20",
