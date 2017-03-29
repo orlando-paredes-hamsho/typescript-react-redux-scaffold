@@ -1,0 +1,36 @@
+{
+  "name": "typescript-react-redux-scaffold",
+  "version": "1.0.0",
+  "description": "Starter pack for building applications with typescript react and redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orlando-paredes-hamsho/typescript-react-redux-scaffold.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "typescript"
+  ],
+  "author": "Orlando Paredes Hamsho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orlando-paredes-hamsho/typescript-react-redux-scaffold/issues"
+  },
+  "homepage": "https://github.com/orlando-paredes-hamsho/typescript-react-redux-scaffold#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "source-map-loader": "^0.2.0",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.2"
+  },
+  "dependencies": {
+    "@types/react": "^15.0.20",
+    "@types/react-dom": "^0.14.23",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
