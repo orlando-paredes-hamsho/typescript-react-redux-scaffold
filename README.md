@@ -17,28 +17,32 @@ several build tools.
 
 ## Features
 
+* Develop **React** Applications.
+* Use **TypeScript** for type checking.
+
 ## Planned Features
 ***Author's note:*** *I will be striking off features in this section as soon as they get added into the actual features section,
 I'm doing this as an opportunity for me to track my own progress, in the future this section will be moved to **PROGRESS.MD***
 
 As a developer I want to:
 
-* Develop **React/Redux** Applications.
-* Use **TypeScript** for type checking.
-* Use **ES6** and above features and compile everything using **Babel**.
-* Run a **development server** that auto updates on changing my files, so I don't have to restart it.
-* Run **eslint** on all my files to maintain style.
-* Test my components using **Mocha/Chai + Enzyme**.
-* Have a **pre-push** script that checks for my linting and testing to be correct.
-* Have a **pre-commit** script that checks for my linting to be correct.
-* Run **code coverage** to maintain my code quality.
-* Create a **production build** that I can deploy.
+- [x] Develop **React** Applications.
+- [ ] Develop **Redux** Applications.
+- [x] Use **TypeScript** for type checking.
+- [ ] Use **ES6** and above features and compile everything using **Babel**.
+- [ ] Run a **development server** that auto updates on changing my files, so I don't have to restart it.
+- [ ] Run **eslint** on all my files to maintain style.
+- [ ] Test my components using **Mocha/Chai + Enzyme**.
+- [ ] Have a **pre-push** script that checks for my linting and testing to be correct.
+- [ ] Have a **pre-commit** script that checks for my linting to be correct.
+- [ ] Run **code coverage** to maintain my code quality.
+- [ ] Create a **production build** that I can deploy.
 
 I also want to:
 
-* Develop my project **locally.**
-* Develop my project using **Cloud9.**
-* Develop my project using **CodeAnywhere.**
+- [ ] Develop my project **locally.**
+- [ ] Develop my project using **Cloud9.**
+- [ ] Develop my project using **CodeAnywhere.**
 
 
 
