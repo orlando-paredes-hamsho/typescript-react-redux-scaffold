@@ -6,8 +6,10 @@
   "scripts": {
     "start":"webpack-dev-server --content-base ./dist --hot --inline --colors --port 8080 --open",
     "start-code": "webpack-dev-server --content-base ./dist --hot --progress --colors --host 0.0.0.0 --devtool eval --port 8080",
+    "start-cloud": "webpack-dev-server  --host $IP --port $PORT  --hot --progress",
     "build": "webpack --config webpack.config.js ",
     "dev": "npm run build && npm run start",
+    "cloud": "npm run build && npm run start-cloud",
     "code": "npm run build && npm run start-code"
   },
   "repository": {
