@@ -89,7 +89,13 @@ Or in codeanywhere: (Can someone please confirm this, this platform hates me so 
 
 ## Contribute
 As I mentioned, this is a learning experience for myself, for this reason I would like to discourage all contributions until *at least*
-version 1.0.0. rolls around. At that point, I will encourage anybody trying to do their first contribution to open-source to give it a go.
+version 1.0.0. rolls around. 
+
+At that point, I will encourage anybody trying to do their first contribution to open-source to give it a go.
+
+**Current version:** 0.1.0
+
+**When will you update to 1.0.0?** When the original *planned feature* list has been completed.
 
 *I do, however, encourage people to send me **suggestions for the Feature List** as well as **report bugs** to me on this repository.*
 
