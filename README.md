@@ -23,6 +23,7 @@ several build tools.
 * Use **ES6** and above features and compile everything using **Babel**.
 * Run a **development server** that auto updates on changing my files, so I don't have to restart it.
 * Run **linting** on all my files to maintain style.
+* Have a **pre-commit** script that checks for my linting to be correct.
 
 Additionally:
 
@@ -43,7 +44,7 @@ As a developer I want to:
 - [x] Run **linting** on all my files to maintain style.
 - [ ] Test my components using **Mocha/Chai + Enzyme**.
 - [ ] Have a **pre-push** script that checks for my linting and testing to be correct.
-- [ ] Have a **pre-commit** script that checks for my linting to be correct.
+- [x] Have a **pre-commit** script that checks for my linting to be correct.
 - [ ] Run **code coverage** to maintain my code quality.
 - [ ] Create a **production build** that I can deploy.
 
