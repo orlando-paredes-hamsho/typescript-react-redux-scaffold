@@ -18,7 +18,15 @@ several build tools.
 ## Features
 
 * Develop **React** Applications.
+* Develop **Redux** Applications.
 * Use **TypeScript** for type checking.
+* Use **ES6** and above features and compile everything using **Babel**.
+* Run a **development server** that auto updates on changing my files, so I don't have to restart it.
+
+Additionally:
+
+* Develop my project **locally.**
+* Develop my project using **Cloud9.**
 
 ## Planned Features
 ***Author's note:*** *I will be striking off features in this section as soon as they get added into the actual features section,
@@ -45,9 +53,39 @@ I also want to:
 - [ ] Develop my project using **CodeAnywhere.**
 
 
+## Install ##
 
-## Install
-You don't wanna install this just yet, I'll be adding this section as soon as it's working perfectly on atleast one development environment
+From your terminal run:
+
+```bash
+    git clone git@github.com:orlando-paredes-hamsho/typescript-react-redux-scaffold.git
+```
+
+Then once it's downloaded
+
+```bash
+    npm install
+```
+
+## Run the dev server ##
+
+From your terminal run:
+
+```bash
+    npm run start 
+```
+
+Or in cloud 9:
+
+```bash
+    npm run cloud
+```
+
+Or in codeanywhere: (Can someone please confirm this, this platform hates me so far)
+
+```bash
+    npm run code
+```
 
 ## Contribute
 As I mentioned, this is a learning experience for myself, for this reason I would like to discourage all contributions until *at least*
