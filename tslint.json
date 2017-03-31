@@ -5,6 +5,11 @@
         "tslint-react"
     ],
     "jsRules": {},
-    "rules": {},
+    "rules": {
+        "quotemark": [true, "single", "jsx-double"],
+        "indent": [true, "tabs"],
+        "no-var-requires": false,
+        "trailing-comma": [true, {"multiline": "never", "singleline": "never"}]
+    },
     "rulesDirectory": []
 }

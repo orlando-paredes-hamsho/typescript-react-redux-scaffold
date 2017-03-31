@@ -22,6 +22,7 @@ several build tools.
 * Use **TypeScript** for type checking.
 * Use **ES6** and above features and compile everything using **Babel**.
 * Run a **development server** that auto updates on changing my files, so I don't have to restart it.
+* Run **linting** on all my files to maintain style.
 
 Additionally:
 
@@ -39,7 +40,7 @@ As a developer I want to:
 - [x] Use **TypeScript** for type checking.
 - [x] Use **ES6** and above features and compile everything using **Babel**.
 - [x] Run a **development server** that auto updates on changing my files, so I don't have to restart it.
-- [ ] Run **linting** on all my files to maintain style.
+- [x] Run **linting** on all my files to maintain style.
 - [ ] Test my components using **Mocha/Chai + Enzyme**.
 - [ ] Have a **pre-push** script that checks for my linting and testing to be correct.
 - [ ] Have a **pre-commit** script that checks for my linting to be correct.
