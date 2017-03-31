@@ -41,7 +41,7 @@ As a developer I want to:
 I also want to:
 
 - [ ] Develop my project **locally.**
-- [ ] Develop my project using **Cloud9.**
+- [x] Develop my project using **Cloud9.**
 - [ ] Develop my project using **CodeAnywhere.**
 
 

@@ -1,22 +1,31 @@
+var webpack = require('webpack');
+var path = require('path');
+var WebpackNotifierPlugin = require('webpack-notifier');
+
 module.exports = {
-    entry: "./src/index.tsx",
-    output: {
-        filename: "bundle.js",
-        publicPath: '/',
-        path: __dirname + "/dist"
-    },
-    devtool: "source-map",
-    resolve: {
-        extensions: [".webpack.js",".web.js",".ts", ".tsx", ".js", ".json"]
-    },
-    module: {
-        rules: [
-            { test: /\.tsx?$/, loader: "ts-loader" },
-            { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
-        ]
-    },
-  externals: {
-        'react': 'React',
-        'react-dom': 'ReactDOM'
-    }
-}
+  devtool: 'eval',
+  entry: [
+    'react-hot-loader/patch',
+    'webpack-dev-server/client?http://localhost:3000',
+    'webpack/hot/only-dev-server',
+    'index.tsx'
+  ],
+  output: {
+    filename: 'bundle.js',
+    publicPath: '/dist',
+    path: __dirname + "/dist"
+  },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
+    modules: ['src', 'node_modules'],
+  },
+  module: {
+    loaders: [
+      { test: /\.tsx?$/, loaders: ['babel-loader', 'ts-loader'] }
+    ]
+  },
+  plugins: [
+    new WebpackNotifierPlugin({ alwaysNotify: true }),
+    new webpack.HotModuleReplacementPlugin()
+  ]
+};
