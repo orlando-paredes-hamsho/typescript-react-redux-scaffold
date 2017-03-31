@@ -27,11 +27,11 @@ I'm doing this as an opportunity for me to track my own progress, in the future 
 As a developer I want to:
 
 - [x] Develop **React** Applications.
-- [ ] Develop **Redux** Applications.
+- [x] Develop **Redux** Applications.
 - [x] Use **TypeScript** for type checking.
-- [ ] Use **ES6** and above features and compile everything using **Babel**.
-- [ ] Run a **development server** that auto updates on changing my files, so I don't have to restart it.
-- [ ] Run **eslint** on all my files to maintain style.
+- [x] Use **ES6** and above features and compile everything using **Babel**.
+- [x] Run a **development server** that auto updates on changing my files, so I don't have to restart it.
+- [ ] Run **linting** on all my files to maintain style.
 - [ ] Test my components using **Mocha/Chai + Enzyme**.
 - [ ] Have a **pre-push** script that checks for my linting and testing to be correct.
 - [ ] Have a **pre-commit** script that checks for my linting to be correct.
@@ -40,7 +40,7 @@ As a developer I want to:
 
 I also want to:
 
-- [ ] Develop my project **locally.**
+- [x] Develop my project **locally.**
 - [x] Develop my project using **Cloud9.**
 - [ ] Develop my project using **CodeAnywhere.**
 

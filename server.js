@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 var config = require('./webpack.config');
 
-var host, port;
+var host = "localhost", port = 8080;
 process.argv.forEach(function (val, index, array) {
   if(val === "--port"){
     port = array[index+1];
@@ -10,8 +10,6 @@ process.argv.forEach(function (val, index, array) {
     host = array[index+1];
   }
 });
-console.log(port, host);
-
 
 new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
