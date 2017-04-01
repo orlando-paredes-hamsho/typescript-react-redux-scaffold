@@ -23,7 +23,10 @@ several build tools.
 * Use **ES6** and above features and compile everything using **Babel**.
 * Run a **development server** that auto updates on changing my files, so I don't have to restart it.
 * Run **linting** on all my files to maintain style.
+* Test my typescript files using **Mocha/Chai**.
 * Have a **pre-commit** script that checks for my linting to be correct.
+* Have a **pre-push** script that checks for my linting and testing to be correct.
+* Create a **production build** that I can deploy.
 
 Additionally:
 
@@ -42,11 +45,12 @@ As a developer I want to:
 - [x] Use **ES6** and above features and compile everything using **Babel**.
 - [x] Run a **development server** that auto updates on changing my files, so I don't have to restart it.
 - [x] Run **linting** on all my files to maintain style.
-- [ ] Test my components using **Mocha/Chai + Enzyme**.
-- [ ] Have a **pre-push** script that checks for my linting and testing to be correct.
+- [x] Test my typescript files using **Mocha/Chai**.
+- [ ] Test my components using **Enzyme.**
 - [x] Have a **pre-commit** script that checks for my linting to be correct.
+- [x] Have a **pre-push** script that checks for my linting and testing to be correct. 
 - [ ] Run **code coverage** to maintain my code quality.
-- [ ] Create a **production build** that I can deploy.
+- [x] Create a **production build** that I can deploy.
 
 I also want to:
 
@@ -87,6 +91,30 @@ Or in codeanywhere: (Can someone please confirm this, this platform hates me so 
 
 ```bash
     npm run code
+```
+
+## Additional Scripts ##
+
+### For testing:
+
+```bash
+    npm run test 
+```
+
+Testing will also run **prior to pushing to a remote server.**
+
+### For Linting:
+
+```bash
+    npm run lint
+```
+
+Linting will also run **prior to commiting and/or pushing to a remote server.**
+
+### Building:
+
+```bash
+    npm run build
 ```
 
 ## Contribute
