@@ -1,6 +1,6 @@
 {
   "name": "typescript-react-redux-scaffold",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Starter pack for building applications with typescript react and redux",
   "main": "index.js",
   "scripts": {
