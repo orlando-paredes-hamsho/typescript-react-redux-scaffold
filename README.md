@@ -123,7 +123,7 @@ version 1.0.0. rolls around.
 
 At that point, I will encourage anybody trying to do their first contribution to open-source to give it a go.
 
-**Current version:** 0.1.*
+**Current version:** 0.2.*
 
 **When will you update to 1.0.0?** When the original *planned feature* list has been completed.
 
